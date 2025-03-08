@@ -3,10 +3,7 @@ TOKEN = "7314170762:AAFRciOeqdIJjKenWS0z0tc98AgHWqDnnCE"
 
 import subprocess
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
-from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, ContextTypes, filters
-
-# Path to your binary
-BINARY_PATH = "./LEGEND"
+from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, ContextTypes, filter
 
 # Global variables
 process = None
